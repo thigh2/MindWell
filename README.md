@@ -5,7 +5,7 @@ This project is an **AI-powered Predictive Healthcare System** that helps identi
 ## Features
 - AI-based health risk prediction for **diabetes**, **heart disease**, and **obesity**.
 - User-friendly form for inputting health and lifestyle data.
-- Displays risk probabilities and provides feedback on how to manage risks.
+- Implement risk assessment logic for chronic disease prediction. 
 - Uses pre-trained machine learning models to assess the risk levels.
 - Integrated with **Streamlit** for interactive web-based applications.
 
