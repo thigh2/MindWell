@@ -1,14 +1,15 @@
- - [X] Search for project topic on GitHub  Done
- - [X] Fork the repository to Ksu-hmi Account  Done
- - [X] Create a README   Done
- - [X] Download and Run the Jupyter Notebook For diabetes dataset Done
- - [X] Add XGBoost and Naive Bayers Models Done
- - [X] Calculate the Accuracy of the Models Done
- - [X] Summarize the Results  Done
- - [X] Transfer updated Jupyter Notebook to GitHub Done
- - [X] Download and Run the JupiterNotebook for the heart disease dataset Done
- - [X]  Addition of Gradient Boosting and XGBoost Classifiers  Done
- - [X]  Summarize the results Done
- - [X]  Compare the performance between the models   Done
-   [X] Building an app for diabetes_risk: Diabetes Risk Calculator  Done
- - [ ] Prepare for the Presentation
+- [X] Search for project topic on GitHub ✅
+- [X] Fork the repository to KSU-HMI account ✅
+- [X] Create a README file ✅
+- [X] Download and run the Jupyter Notebook for the diabetes dataset ✅
+- [X] Add XGBoost and Naive Bayes models ✅
+- [X] Calculate the accuracy of the models ✅
+- [X] Summarize the results ✅
+- [X] Push the updated Jupyter Notebook to GitHub ✅
+- [X] Download and run the Jupyter Notebook for the heart disease dataset ✅
+- [X] Add Gradient Boosting and XGBoost classifiers ✅
+- [X] Summarize the results ✅
+- [X] Compare the performance between the models ✅
+- [X] Build an app for diabetes risk: Diabetes Risk Calculator ✅
+- [ ] Prepare for the presentation
+- [ ] Final review and testing of the app before the presentation
