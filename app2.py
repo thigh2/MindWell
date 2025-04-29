@@ -19,6 +19,7 @@ sex = st.selectbox("Sex", options=[("Male", 1), ("Female", 0)], format_func=lamb
 blood_pressure = st.number_input("Resting Blood Pressure (mm Hg)", min_value=50, max_value=250, step=1, value=120)
 cholesterol = st.number_input("Cholesterol (mg/dl)", min_value=100, max_value=600, step=1, value=200)
 heart_rate = st.number_input("Max Heart Rate Achieved (bpm)", min_value=50, max_value=220, step=1, value=150)  # Parenthesis properly closed here
+chest_pain = st.selectbox("Chest Pain Type", options=[("Typical Angina", 0), ("Atypical Angina", 1), ("Non-anginal Pain", 2), ("Asymptomatic", 3)], format_func=lambda x: x[0])[1]
 
 # Prediction logic
 if st.button("Predict"):
