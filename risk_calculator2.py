@@ -16,8 +16,10 @@ bmi = st.number_input("BMI", min_value=10.0, max_value=50.0, value=22.0)
 glucose = st.number_input("Glucose Level", min_value=0, max_value=300, value=100)
 bp = st.number_input("Blood Pressure", min_value=0, max_value=200, value=120)
 
+activity_level = st.selectbox("Physical Activity Level", options=["Sedentary", "Lightly Active", "Moderately Active", "Very Active"])
+
 # Risk calculation function
-def calculate_risk(age, bmi, glucose, bp):
+def calculate_risk(age, bmi, glucose, bp, activity_level):
     risk_score = 0
     if age > 45:
         risk_score += 1
@@ -27,8 +29,9 @@ def calculate_risk(age, bmi, glucose, bp):
         risk_score += 2
     if bp > 130:
         risk_score += 1
-
-    # Determine risk level based on score
+    if activity_level == "Sedentary":
+        risk_score += 1  # Increase risk if sedentary
+    
     if risk_score >= 3:
         return "High Risk"
     elif risk_score == 2:
